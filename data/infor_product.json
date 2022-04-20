@@ -1,0 +1,33 @@
+[
+    {
+        "name":"Hoàng Phương",
+        "position":"Creative Design",
+        "img":"HoangPhuong.jpg",
+        "url":"https://www.facebook.com/profile.php?id=100012162644825"  
+    },
+    {
+        "name":"Trang Trương",
+        "position":"Creative Design",
+        "img":"TrangTruong.jpg",
+        "url":"https://www.facebook.com/profile.php?id=100006675429783"  
+    },
+    {
+        "name":"Thuấn Hoàng",
+        "position":"Leader of Team",
+        "img":"ThuanHoang.jpg",
+        "url":"https://www.facebook.com/profile.php?id=100011235033666"  
+    },
+    {
+        "name":"Gia Bảo",
+        "position":"Creative Design",
+        "img":"GiaBao.jpg",
+        "url":"https://www.facebook.com/profile.php?id=100010197137017"  
+    },
+    {
+        "name":"Thúy Vy",
+        "position":"Creative Design",
+        "img":"ThuyVy.jpg",
+        "url":"https://www.facebook.com/vyboss2022001"  
+    }
+
+]

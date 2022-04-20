@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <!-- <script src="../JS/account.js"></script> -->
+    <link rel="stylesheet" href="../CSS/demo.css">
+    <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+
+</head>
+<body onload="showSlides()" >
+    <div class="main" id="main">
+        <div class="container_header">
+            <nav class="nav">
+                <ul class="menu" id="main_menu">
+                    <li><a href="../HTML/main.html">home</a></li>
+                    <li><a href="#">product</a></li>
+                    <li><a href="#">tour</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">more</a> <img src="../IMG/icon/167353467116276572813767-128.png" alt="đéo thấy hả?? vậy thôi">
+                        <ul class="submenu">
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Extras</a></li>
+                            <li><a href="#">Media</a></li>
+                        </ul>
+                    </li>
+               </ul>
+            
+            </nav>
+            <div class="search_box">
+                    <input type="text" class="search_txt" placeholder="type of search">
+                    <a href="#" class="search_btn">
+                        <!-- <img src="../IMG/icon/15723483501556282358-128.png" alt="ko có hình đâu">-->
+                        <lord-icon
+                            src="https://cdn.lordicon.com/msoeawqm.json"
+                            trigger="loop"
+                            colors="primary:#333,secondary:#a866ee"
+                            stroke="52"
+                            scale="46"
+                            style="width:42px;height:42px">
+                        </lord-icon>
+                    </a>
+            </div>  
+            <div class="sidebar" id="mysidebar">
+                <div class="sidebar_icon">
+                     <i><img src="../IMG/icon/icon_menu.png" alt="" onclick="open_sidebar()"></i>
+                    <i><img src="../IMG/icon/arrow.png" alt="" id="icon_hideslidebar" onclick="close_sidebar()"></i>
+                </div>
+
+               
+                <nav class="nav">
+                    <ul class="menu">
+                        <li>
+                            <a href="#">
+                                <img src="../IMG/icon/home.png" alt="home" srcset="">
+                                <p>Trang chủ</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../IMG/icon/member.png" alt="member" srcset="">
+                                <p>Thành viên</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../IMG/icon/library.png" alt="library" srcset="">
+                                <p>Thư viện</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../IMG/icon/user.png" alt="user" srcset="">
+                                <p>Thông tin cá nhân</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../IMG/icon/image.png" alt="image" srcset="">
+                                <p>Hình đã thích</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../IMG/icon/login.png" alt="login" srcset="">
+                                <p>Đăng nhập</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+        <div class="container_slideshow" >
+            <div class="mySlides fade" >
+                <div class="number_text">1/12</div>
+                <img src="../IMG/slideshow/pic_1.jpg" alt="hinh_1">
+                <div class="slide_text">pic_1</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="number_text">2/12</div>
+                <img src="../IMG/slideshow/pic_2.jpg" alt="hinh_2">
+                <div class="slide_text">pic_2</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="number_text">3/12</div>
+                <img src="../IMG/slideshow/pic_3.jpg" alt="hinh_3">
+                <div class="slide_text">pic_3</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="number_text">4/12</div>
+                <img src="../IMG/slideshow/pic_4.jpg" alt="hinh_4">
+                <div class="slide_text">pic_4</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="number_text">5/12</div>
+                <img src="../IMG/slideshow/pic_5.jpg" alt="hinh_5">
+                <div class="slide_text">pic_5</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="number_text">6/12</div>
+                <img src="../IMG/slideshow/pic_6.jpg" alt="hinh_6">
+                <div class="slide_text">pic_6</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="number_text">7/12</div>
+                <img src="../IMG/slideshow/pic_7.jpg" alt="hinh_7">
+                <div class="slide_text">pic_7</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="number_text">8/12</div>
+                <img src="../IMG/slideshow/pic_8.jpg" alt="hinh_8">
+                <div class="slide_text">pic_8</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="number_text">9/12</div>
+                <img src="../IMG/slideshow/pic_9.jpg" alt="hinh_9">
+                <div class="slide_text">pic_9</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="number_text">10/12</div>
+                <img src="../IMG/slideshow/pic_10.jpg"alt="hinh_10">
+                <div class="slide_text">pic_10</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="number_text">11/12</div>
+                <img src="../IMG/slideshow/pic_11.jpg"alt="hinh_11">
+                <div class="slide_text">pic_11</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="number_text">12/12</div>
+                <img src="../IMG/slideshow/pic_12.jpg"alt="hinh_12">
+                <div class="slide_text">pic_12</div>
+            </div>
+            <div style="text-align: center; padding-top: 20px;">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span> 
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>  
+        </div>
+        <br>
+    </div>
+    <div class="content">
+        <div class="information_of_pape">
+            <div class="class_name">
+                <h1>12a7</h1>
+            </div>
+            <div class="slogan_of_class">
+                <i>we are the family</i>
+            </div>
+            <div class="in4">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia repudiandae fuga nulla, vel autem sit quam sint, quibusdam maiores eum optio hic. Quo, enim doloremque! Omnis quia minima doloribus distinctio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis expedita sint porro. Omnis aspernatur quod, delectus provident nemo itaque adipisci dolores accusamus, minima cumque sapiente repellendus, eligendi excepturi sint magni?</p>
+            </div>
+            <h1 style="text-transform: uppercase; text-align: center; animation: changecolor 3s infinite;" >member of 12A7</h1>
+        </div>
+
+
+        <div class="member" id="member">
+            <div class="infor_member">
+                <div class="img_member">
+                     <img src="../IMG/member/HoangPhuong.jpg" alt="HoangPhuong" srcset="">
+                </div>
+                <div class="content_member">
+                    <a href="https://www.facebook.com/profile.php?id=100012162644825">Hoàng Phương </a>
+                    <span>Creative Design</span>
+                </div>   
+            </div>
+            <div class="infor_member">
+                <div class="img_member">
+                     <img src="../IMG/member/TrangTruong.jpg" alt="TrangTruong" srcset="">
+                </div>
+                <div class="content_member">
+                    <a href="https://www.facebook.com/profile.php?id=100006675429783">Trang Trương</a>
+                    <span>Creative Design</span>
+                </div>   
+            </div>
+            <div class="infor_member">
+                <div class="img_member">
+                     <img src="../IMG/member/ThuanHoang.jpg" alt="ThuanHoang" srcset="">
+                </div>
+                <div class="content_member">
+                    <a href="https://www.facebook.com/profile.php?id=100011235033666">Thuấn Hoàng </a>
+                    <span>Leader of Team</span>
+                </div>   
+            </div>
+            <div class="infor_member">
+                <div class="img_member">
+                     <img src="../IMG/member/GiaBao.jpg" alt="GiaBao" srcset="">
+                </div>
+                <div class="content_member">
+                    <a href="https://www.facebook.com/profile.php?id=100010197137017">Gia Bảo</a>
+                    <span>Creative Design</span>
+                </div>   
+            </div>
+            <div class="infor_member">
+                <div class="img_member">
+                     <img src="../IMG/member/ThuyVy.jpg" alt="ThuyVy" srcset="">
+                </div>
+                <div class="content_member">
+                    <a href="https://www.facebook.com/vyboss2022001">Thúy Vy</a>
+                    <span>Creative Design</span>
+                </div>   
+            </div>
+        </div>
+    </div> 
+    <footer class="footer">
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <i>save beautiful moments </i>
+        </div>
+        <div class="box">
+            <div class="infor_footer">
+                <h2>information of team </h2>
+                <div class="infor_box">
+                    <img src="../IMG/icon/address.png" alt="">
+                    <p>Address</p>
+                    <h5>7/12 Love street</h5>
+                </div>
+                <div class="infor_box">
+                    <img src="../IMG/icon/phone-call.png" alt="">
+                    <p>Phone</p>
+                    <h5>261101200101</h5>
+                </div>
+                <div class="infor_box">
+                    <img src="../IMG/icon/email.png" alt="">
+                    <p>Email</p>
+                    <h5>WeAreEachOrther's.gmail.com</h5>
+                </div>
+            </div>
+            <div class="footer_input"  >
+                <div  id="confirm_form">
+
+                </div>
+                <div class="form_input" >
+                    <input type="text" name="Name" id="input_name" placeholder="Name">
+                    <input type="text" name="Email" id="input_email" placeholder="Email">
+                    <input type="text" name="Message" id="input_message" placeholder="Message">
+                    <button  id="button_contact" type="submit" onclick="confirm_form()"><p>sent</p></button>
+                </div>
+            </div>
+        </div>
+        <div class="afterfooter">
+            <div class="infor_byIcon">
+                <a href="#"><img src="../IMG/icon/facebook.png" alt=""></a>
+                <a href="#"><img src="../IMG/icon/instagram.png" alt=""></a>
+                <a href="#"><img src="../IMG/icon/tiktok.png" alt=""></a>
+                <a href="#"><img src="../IMG/icon/pinterest_icon.png" alt=""></a>
+                <a href="#"><img src="../IMG/icon/messenger logo_icon.png" alt=""></a>
+                <a href="#"><img src="../IMG/icon/twitter_icon.png" alt=""></a>
+                <a href="#"><img src="../IMG/icon/youtube logo_icon.png" alt=""></a>
+            </div>
+            <h3>Create by Thuấn Hoàng</h3>
+        </div>
+
+    </footer>
+
+
+    <script src="../JS/account.js" ></script>
+    <script>
+        function setTextOnMenu(){
+            var tagLi = document.querySelectorAll('#main_menu li');
+            var tagA = document.querySelectorAll('#main_text a');
+            for (var  i = 0; i < tagLi.length; i++) {
+                var a = tagLi[i].textContent;//lấy giá trị text của thẻ li
+                if(a.length>6){
+                    tagLi[i].style.paddingLeft = "0px";
+                    tagLi[i].style.letterSpacing ="1px"; 
+                }
+            } 
+            console.log(tagA);
+        }
+        setTextOnMenu();
+    </script>
+</body> 
+</html>
