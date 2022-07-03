@@ -146,7 +146,8 @@ nav {
     
 }
 .search_box:hover >.search_txt{
-    width:150px;
+    margin-right: 10px;
+    width:180px;
     transition: 0.5s;
     border-radius: 0;
     overflow: hidden;
